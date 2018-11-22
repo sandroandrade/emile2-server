@@ -1,9 +1,8 @@
-ruby '2.5.0'
+ruby '2.5.3'
 source 'https://rubygems.org'
 
-gem 'puma'
 gem 'rake'
 gem 'activerecord'
-gem 'pg', '~> 0.21'
+gem 'pg'
 gem 'sinatra'
 gem 'sinatra-activerecord'
